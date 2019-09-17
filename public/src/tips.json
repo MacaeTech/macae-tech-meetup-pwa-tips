@@ -1,0 +1,82 @@
+[
+    {
+        "key": "1",
+        "value": "Use o Lighthouse para verificar se sua aplicação está usando HTTPS"
+    },
+    {
+        "key": "2",
+        "value": "Use o Lighthouse para verificar se sua aplicação está aderente ao uso do design amigável para dispositivos móveis."
+    },
+    {
+        "key": "3",
+        "value": "Carregue várias páginas PWA com o modo avião ligado. Se certifique que todo conteúdo está sendo exibido offline. Use o Lighthouse para verificar se a resposta para a URL inicial responde com um 200 quando offline."
+    },
+    {
+        "key": "4",
+        "value": "Use o Lighthouse para verificar se o usuário pode adicionar o ícone na Home Screen."
+    },
+    {
+        "key": "5",
+        "value": "Use o Lighthouse em um Nexus 5 (ou similar) para verificar se o tempo de resposta está < 10s na primeira visita em uma rede 3G simulada."
+    },
+    {
+        "key": "6",
+        "value": "Teste seu site no Chrome, Edge, Firefox e Safari"
+    },
+    {
+        "key": "7",
+        "value": "Abra seu app simulando uma rede muito lenta. Todo clique em um link/botão no app deve responder imediatamente."
+    },
+    {
+        "key": "8",
+        "value": "Se certifique que as páginas aninhadas do seu aplicativo são \"linkáveis\" através de URLs. Essas URLs devem ser únicas com o propósito de serem compartilhadas em redes sociais individualmente."
+    },
+    {
+        "key": "9",
+        "value": "Use a busca do Google para visualizar como o Google verá seu site quando ele for rastreado."
+    },
+    {
+        "key": "10",
+        "value": "Use a ferramente de teste para se certificar que o título, imagem, descrição, etc, estão disponíveis."
+    },
+    {
+        "key": "11",
+        "value": "Carregue várias páginas no seu PWA para se certificar que ele não irá \"pular\" a página de carregamento."
+    },
+    {
+        "key": "12",
+        "value": "Para Single Page Applications, tenha certeza que seu site não use identificadores fragmentados."
+    },
+    {
+        "key": "13",
+        "value": "Procure uma lista de visualização no app. Role para baixo. Clique no último item para ir para a página de detalhes. Navegue por essa página. Clique em voltar, e se certifique que a página esteja localizada no mesmo lugar antes de você entrar na página de detalhes."
+    },
+    {
+        "key": "14",
+        "value": "Use Lighthouse e se certifique do uso das meta tags para o navegador Safari."
+    },
+    {
+        "key": "15",
+        "value": "Veja o PWA em telas pequenas, médias e grandes e verifique se ele funciona razoavelmente em todos."
+    },
+    {
+        "key": "16",
+        "value": "Verifique se o PWA não usa um pacore de instalação de aplicativo quando carregado."
+    },
+    {
+        "key": "17",
+        "value": "Verifique se o navegador não exibe o A2HS em um momento inoportuno, como quando o usuário está no meio de um fluxo que não deve ser interrompido ou quando outro prompt já é exibido na tela."
+    },
+    {
+        "key": "18",
+        "value": "Abra o console no dev tools e se certifique que o manifesto foi devidamente carregado e que o service worker devidamente instalado!"
+    },
+    {
+        "key": "19",
+        "value": "Emule uma rede offline e verifique se o PWA fornece uma indicação de que você está offline."
+    },
+    {
+        "key": "20",
+        "value": "Visite o site e encontre as notificações por push ativadas. Certifique-se de que, se você dispensar a notificação por push, o site não será solicitado novamente da mesma maneira na mesma sessão."
+    }
+]

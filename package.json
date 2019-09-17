@@ -1,0 +1,22 @@
+{
+  "name": "pwa-tips",
+  "version": "1.0.0",
+  "description": "App PWA com dicas sobre PWA!",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "keywords": [
+    "pwa",
+    "progressive",
+    "web",
+    "app",
+    "macae",
+    "tech"
+  ],
+  "author": "Victor Rios",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  }
+}

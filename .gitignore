@@ -1,0 +1,4 @@
+.idea
+.firebase*
+package-lock.json
+node_modules

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#655CC5">
+  <meta name="Description" content="PWA Tips | Macaé Tech">
+  <title>PWA Tips</title>
+  <link rel="stylesheet" href="/src/css/app.css">
+  <link rel="manifest" href="/manifest.json">
+
+  <!-- iOS settings -->
+  <link rel="apple-touch-icon" href="/src/images/icons/icon-192x192.png">
+</head>
+<body>
+
+  <header>
+    <div>
+      <img src="/src/images/pwa-tips.png" alt="PWA" height="50px">
+    </div>
+  </header>
+
+  <section>
+    <div id="tip-content"></div>
+  </section>
+
+  <footer>
+      <button class="button" onclick="takeTip()">
+        <span>Quero uma dica!</span>
+      </button>
+  </footer>
+
+  <script type="text/javascript" src="/src/tips.json"></script>
+  <script type="text/javascript" src="/src/js/app.js"></script>
+</body>
+</html>

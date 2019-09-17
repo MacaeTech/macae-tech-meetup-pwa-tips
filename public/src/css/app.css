@@ -1,0 +1,92 @@
+body {
+  font-family: Apercu,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  background: #655CC5;
+  color: #FFF;
+  height: 100vh;
+}
+
+header {
+  background: #4d42BA;
+  height: 80px;
+  vertical-align: center;
+}
+
+header div {
+  height: 100%;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+header div span {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: yellow;
+  font-size: 24px;
+}
+
+section {
+  height: 70vh;
+}
+
+section div {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 24px;
+  text-align: justify;
+  line-height: 45px;
+  padding: 0 30px;
+}
+
+section,
+footer {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .button {
+  background: #4d42BA;
+  color:#FFF;
+  height: 60px;
+  max-width: 350px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: 0;
+  border: none;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 9px #444;
+}
+
+footer .button span {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  color: FFF;
+}
+
+footer .button:active {
+  box-shadow: 0 5px #222;
+  transform: translateY(4px);
+}
+
+@media screen and (max-width: 480px) {
+  footer .button {
+    max-width: 90%;
+  }
+}
+
+@media all and (display-mode: standalone) {
+  section {
+    height: 75vh;
+  }
+}
