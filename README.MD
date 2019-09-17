@@ -1,4 +1,4 @@
-# PWA Tips?
+# PWA Tips
 Este código fonte é um exemplo de uso do PWA mostrado no evento Maca Tech #1. A função dessa aplicação é fornecer dicas rápidas aos usuários sobre PWA.
 
 # Como usar
