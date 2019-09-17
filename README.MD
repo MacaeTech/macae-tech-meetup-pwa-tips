@@ -6,4 +6,4 @@ Você vai precisar do [Node.js](https://nodejs.org) instalado em sua máquina. C
 
 Uma vez o Node.js instalado, abra seu prompt de comando ou terminal e **navegue até a pasta onde está localizado o projeto**. Então, rode `npm install` para instalar todas as dependencias requeridas.
 
-Finalmente, rode `npm start` para iniciar o servidor de desenvolvimento e visite [localhost:8080](http://localhost:8080) para ver a aplicação rodandos.
+Finalmente, rode `npm start` para iniciar o servidor de desenvolvimento e visite [localhost:8080](http://localhost:8080) para ver a aplicação rodando.
