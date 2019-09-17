@@ -1,5 +1,5 @@
 # PWA Tips
-Este código fonte é um exemplo de uso do PWA mostrado no evento Maca Tech #1. A função dessa aplicação é fornecer dicas rápidas aos usuários sobre PWA.
+Este código fonte é um exemplo de uso do PWA mostrado no evento Macaé Tech Meetup #1. A função dessa aplicação é fornecer dicas rápidas aos usuários sobre PWA.
 
 # Como usar
 Você vai precisar do [Node.js](https://nodejs.org) instalado em sua máquina. Caso não possua, faça o download do instalador em [nodejs.org](https://nodejs.org).
